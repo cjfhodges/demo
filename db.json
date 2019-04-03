@@ -1,14 +1,90 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"orders": [{
+			"id": 1,
+			"ordernumber": 12343,
+			"totalprice": 120.50,
+			"deliveryoption": "Collection",
+			"clickandcollectlocation": "Boston Office",
+			"productname": "Corona Premier Beer",
+			"addresses": [{
+					"addresstype": "Delivery",
+					"addressline1": "22 Boston Wharf Rd 8th Floor",
+					"city": "Boston"
+				},
+				{
+					"addresstype": "Billing",
+					"addressline1": "20 St Dunstan's Hill",
+					"city": "London"
+				},
+				{
+					"addresstype": "Collection",
+					"addressline1": "22 Boston Wharf Rd 8th Floor",
+					"city": "Boston"
+				}
+			],
+			"customer": [{
+				"customerid": 12213,
+				"customername": "Marion Ravenwood",
+				"email": "Marion.Ravenwood@me.com"
+			}]
+		},
+		{
+			"id": 2,
+			"ordernumber": 73653,
+			"totalprice": 80.50,
+			"deliveryoption": "Collection",
+			"clickandcollectlocation": "Rotterdam Office",
+			"productname": "Heineken",
+			"addresses": [{
+					"addresstype": "Delivery",
+					"addressline1": "Wilhelminakade 197",
+					"city": "Rotterdam"
+				},
+				{
+					"addresstype": "Billing",
+					"addressline1": "22 Boston Wharf Rd 8th Floor",
+					"city": "Boston"
+				},
+				{
+					"addresstype": "Collection",
+					"addressline1": "Wilhelminakade 197",
+					"city": "Rotterdam"
+				}
+			],
+			"customer": [{
+				"customerid": 21124,
+				"customername": "Marcus Brody",
+				"email": "Marcus.Brody@me.com"
+			}]
+		},
+		{
+			"id": 1,
+			"ordernumber": 24324,
+			"totalprice": 60.50,
+			"deliveryoption": "Delivery",
+			"clickandcollectlocation": "London Office",
+			"productname": "BrewDog PunkIPA",
+			"addresses": [{
+					"addresstype": "Delivery",
+					"addressline1": "20 St Dunstan's Hill",
+					"city": "London"
+				},
+				{
+					"addresstype": "Billing",
+					"addressline1": "22 Boston Wharf Rd 8th Floor",
+					"city": "Boston"
+				},
+				{
+					"addresstype": "Collection",
+					"addressline1": "20 St Dunstan's Hill",
+					"city": "London"
+				}
+			],
+			"customer": [{
+				"customerid": 21124,
+				"customername": "Henry Jones Sr",
+				"email": "Henry.Jones@me.com"
+			}]
+		}
+	]
 }
